@@ -85,10 +85,14 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { property: "og:title", content: "Project Sentinel — AI Urban Digital Twin for Kochi" },
       {
         property: "og:description",
-        content: "Predict · Prevent · Protect. An AI command center for the city of Kochi.",
+        content: "Project Sentinel is an AI-powered urban digital twin for Kochi. Predict, prevent, protect — a command center for traffic, floods, emergencies and city intelligence.",
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
+      { name: "twitter:title", content: "Project Sentinel — AI Urban Digital Twin for Kochi" },
+      { name: "twitter:description", content: "Project Sentinel is an AI-powered urban digital twin for Kochi. Predict, prevent, protect — a command center for traffic, floods, emergencies and city intelligence." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/86f83a82-ed14-4876-abfd-13560a5531a6/id-preview-c241a4c3--2e4d5b90-06f8-4e83-969f-ce7c379e6cd6.lovable.app-1784356234157.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/86f83a82-ed14-4876-abfd-13560a5531a6/id-preview-c241a4c3--2e4d5b90-06f8-4e83-969f-ce7c379e6cd6.lovable.app-1784356234157.png" },
     ],
     links: [
       { rel: "stylesheet", href: appCss },
